@@ -12,3 +12,6 @@ this help us achieve availability and fault tolerance but we have to compromise 
 communication and replication in Multi-master systems are handled via a type of Consensus algorithm
 
 to learn more about what consensus algorithm is and how it helps to manage multiple clusters, checkout consensus.md
+
+## Additional Resource:
+- [internals of Aurora Multi-Master for the MySQL-compatible edition of Aurora](https://aws.amazon.com/blogs/database/building-highly-available-mysql-applications-using-amazon-aurora-mmsr/)
