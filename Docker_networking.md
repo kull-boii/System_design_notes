@@ -25,3 +25,12 @@ In windows
 - Addons: notice "com.docker.network.bridge.name": "docker0", at the end
 - ![image](https://user-images.githubusercontent.com/68529036/206182771-4892077d-b8d8-48f4-bd34-97792047dfac.png)
 - docker0 is new virtual bridge interface (default interface and network for the default bidge, the defualt network in docker
+- now we will ping from d1 to d2 and d3
+- type docker exec -it d1 sh (to jump into shell of d1)
+- hostname -I (to view ip add of d1)
+- apt-get update
+- apt-get install iputils-ping
+- ping 172.17.0.3 (ip add of d2)
+- ping 172.17.0.4 (ip add of d3)
+- you must recive 100% packet transmitted
+- 
