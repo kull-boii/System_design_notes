@@ -1,4 +1,5 @@
 - https://www.freecodecamp.org/news/how-to-get-a-docker-container-ip-address-explained-with-examples/
+- https://docs.docker.com/network/network-tutorial-standalone/
 <br>
 
 
@@ -33,4 +34,4 @@ In windows
 - ping 172.17.0.3 (ip add of d2)
 - ping 172.17.0.4 (ip add of d3)
 - you must recive 100% packet transmitted
-- 
+
