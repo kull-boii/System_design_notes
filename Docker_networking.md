@@ -35,3 +35,13 @@ In windows
 - ping 172.17.0.4 (ip add of d3)
 - you must recive 100% packet transmitted
 
+### View docker vm files
+- docker runs a wsl inorder to spin up the containers
+- to view the files of it 
+- open windows file explorer 
+- in the left side you may see linux icon
+- click on it
+- cd docker-desktop-data > data > docker
+
+ 
+
