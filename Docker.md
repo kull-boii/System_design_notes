@@ -7,3 +7,7 @@ you can view all the caches by navigating to linux > docker-desktop-data > docke
 `docker builder prune --all`
 
 deletes all docker image cache.
+
+<br>
+
+To inspect env of a container `docker inspect <container_name>`
