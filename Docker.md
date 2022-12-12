@@ -22,6 +22,13 @@ docker container IP address
 `docker container inspect --format "{{ .NetworkSettings.IPAddress }}" <container_name>`
 
 
+### docker logs
+`docker logs -f <container_name>`
+
+### docker logs to a file
+![image](https://user-images.githubusercontent.com/68529036/207131833-ebf062b4-3f65-40f6-872b-ef7843605ba9.png)
+
+
 
 ### addons
 - https://geshan.com.np/blog/2022/05/docker-commands/
