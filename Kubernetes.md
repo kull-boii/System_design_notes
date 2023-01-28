@@ -1,2 +1,3 @@
 - kubectl version:  The client version is the kubectl version; the server version is the Kubernetes version installed on the master.
 - kubectl cluster-info
+- kubectl cluster-info dump
