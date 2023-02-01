@@ -1,0 +1,9 @@
+### View all the apps installed
+- apt list --installed
+- dpkg --get-selections
+
+
+### whoami vs who am i
+- https://unix.stackexchange.com/questions/72177/what-is-pts-0-and-0-0-in-linux-when-typing-who-am-i
+
+The root account is the special user in the /etc/passwd file with the user ID (UID) of 0 and is commonly given the user name, root. It is not the user name that makes the root account so special, but the UID value of 0 . This means that any user that has a UID of 0 also has the same privileges as the root user.
